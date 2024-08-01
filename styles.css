@@ -1,0 +1,92 @@
+:root {
+    --gris-claro: #f5f6f7;
+    --azul-oscuro: #0a0a23;
+    --azul-fcc: #1b1b32;
+    --amarillo-claro: #fecc4c;
+    --amarillo-oscuro: #feac32;
+    --rosa-claro: #ffadad;
+    --rojo-oscuro: #850000;
+    --verde-claro: #acd157;
+  }
+  
+  body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: var(--azul-fcc);
+    color: var(--gris-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 680px;
+  }
+  
+  h1,
+  .contenedor,
+  .resultado {
+    margin: 20px auto;
+  }
+  
+  label,
+  legend {
+    font-weight: bold;
+  }
+  
+  .contenedor-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--amarillo-claro);
+    border: 2px solid var(--amarillo-oscuro);
+  }
+  
+  button,
+  input,
+  select {
+    min-height: 24px;
+    color: var(--azul-oscuro);
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .resultado {
+    border: 2px solid var(--gris-claro);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .ocultar {
+    display: none;
+  }
+  
+  .resultado span {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .excedente {
+    color: var(--rosa-claro);
+  }
+  
+  .deficit {
+    color: var(--verde-claro);
+  }
+  
